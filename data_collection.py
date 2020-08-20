@@ -51,6 +51,7 @@ def main(file_name, starting_value):
             screen = cv2.cvtColor(screen, cv2.COLOR_BGR2RGB)
 
             controller_output = controller.read()
+            print(controller_output)
             training_data.append([screen, controller_output])
 
             last_time = time.time()

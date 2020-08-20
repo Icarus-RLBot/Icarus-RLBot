@@ -89,7 +89,7 @@ class Actor(object):
             int(round(ai_control[6])),  # X
             int(round(ai_control[7])),  # Y
             int(round(ai_control[8])),  # B
-            int(round(ai_control[9])),  # T
+            int(round(ai_control[9])),  # Throttle
         ]
 
         ### print to console
