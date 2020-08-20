@@ -1,0 +1,11 @@
+scalary
+inputs
+mss
+numpy 
+scikit-image
+termcolor
+keras
+h5py
+Pillow
+opencv-python
+
